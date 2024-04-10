@@ -1,0 +1,51 @@
+body {
+    background-color: #f2f2f2; /* Color de fondo suave */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.lista ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista li {
+    border-radius: 10px;
+    margin-bottom: 10px; /* Agrega margen inferior */
+    padding: 10px;
+    display: block; /* Cambia a bloque para que cada elemento esté en una fila */
+    width: fit-content; /* Ajusta el ancho al contenido */
+}
+
+.titulo {
+    text-align: center; /* Centra el texto */
+    text-decoration: underline;
+    color: initial;
+}
+
+
+.numeracion {
+    background-color: #6495ED; /* Azul de background */
+    border-radius: 10px; /* Borde redondeado */
+    color: white; /* Color de texto blanco para contrastar */
+    padding: 5px 10px; /* Ajusta el espaciado interno */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.numeracion:hover {
+    background-color: #a3b8cc; /* Cambia el color a uno más tenue */
+}
+
+.respuesta {
+    color: #888;
+    transition: box-shadow 0.3s; /* Transición suave */
+    padding: 5px 10px; /* Ajusta el espaciado interno */
+    border-radius: 10px; /* Borde redondeado */
+    width: fit-content; /* Ajusta el ancho al contenido */
+}
+
+.respuesta:hover {
+    box-shadow: 0px 0px 5px #888; /* Agrega una sombra en hover */
+}
